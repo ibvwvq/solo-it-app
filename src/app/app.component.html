@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<div style="width: 800px; margin: auto; align-items: center; display:flex; flex-direction: column; ">
+  <h2>Настройки интеграции</h2>
+    <tui-root>
+      <a style="margin: 10px;"href="https://bizon365.ru/?ysclid=ledbvwe78u314808586">Перейти на Bizon</a>
+      <form [formGroup]="testForm" action="" method="get" style="width: 560px; display:flex; flex-direction: column;">
+        <tui-input formControlName="Email" style="margin-bottom: 10px; margin: 10px;">Email<input tuiTextfield /></tui-input>
+        <tui-input formControlName="Api" style="margin-bottom: 10px; margin: 10px;">API-токен<input tuiTextfield /></tui-input>
+        <button tuiButton style="margin: 10px;">Сохранить</button>
+        <label style="margin: 10px;">Как взять Api-токен?</label>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4Q9-v2L4h3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </form>
+    </tui-root>
+  </div>
+</html>
